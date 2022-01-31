@@ -4,7 +4,8 @@
   "description": "Me learning algos and stuff",
   "main": "index.js",
   "scripts": {
-    "test": "export TZ=UTC; mocha -r esm src/**/*.spec.js"
+    "test": "export TZ=UTC; mocha -r esm src/**/*.spec.js",
+    "script": "node -r esm"
   },
   "repository": {
     "type": "git",
