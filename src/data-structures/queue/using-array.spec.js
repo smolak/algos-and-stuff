@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Queue } from "./index";
+import { Queue } from "./using-array";
 
 describe("Queue specification", () => {
   describe("A new queue", () => {
