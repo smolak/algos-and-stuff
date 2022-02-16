@@ -11,8 +11,8 @@
 
 ```js
 /**
- * (a) ---(b)
- *  |    /
+ * (a) --- (b)
+ *  |     /
  *  |  (c)
  *  | /   \
  * (d) --- (e)
@@ -112,6 +112,40 @@ const adjacencyMatrix = [
    - E.g. I have a link to Facebook, but F. doesn't need to have a link back to my page.
    - The degree of a node is the number of edges connected to the node. 
    - In a directed graph, nodes have an indegree or edges pointing to it and an outdegree or edges pointing from it.
+
+### Bipartite graph
+
+A graph whose vertices can be divided into two disjointed and independent sets such that every edge connects a vertex in the first set to one in the second set.
+
+```js
+/**
+ * (a) --- (b)
+ *    \   /
+ *      X
+ *    /   \
+ * (c) --- (d)
+ */
+```
+ 
+ - if cycles are present, they are composed of even, not odd, number of nodes
+
+#### Graph coloring
+
+ - A way of labeling nodes or edges in a graph.
+ - **Legal coloring** - a graph coloring such that no neighboring nodes share the same color
+
+```js
+/**
+ * G - green
+ * Y - yellow
+ * 
+ * (G) --- (Y) legal
+ * (Y) --- (G) legal
+ * (Y) --- (Y) Not legal
+ * (Y) --- (G) --- (Y) Legal
+ */
+
+```
    
 ### Weighted vs Unweighted Graphs
 
