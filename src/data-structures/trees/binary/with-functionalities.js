@@ -87,6 +87,7 @@ console.log(lowestCommonAncestor(a, i, g).value === "d");
 console.log(lowestCommonAncestor(a, h, i).value === "h");
 console.log(lowestCommonAncestor(a, a, c).value === "a");
 console.log(lowestCommonAncestor(a, h, c).value === "a");
+console.log(lowestCommonAncestor(d, c, f) === null);
 
 /**
  * maxDepth()
