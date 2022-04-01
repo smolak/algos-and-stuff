@@ -39,7 +39,7 @@ Now if I move right, I am on a 1x2 grid
 [ ][*][ ]
 ```
 
-An finally when I move right again I am on a 1x1 grid
+And finally when I move right again I am on a 1x1 grid
 
 ```
 [ ][ ][ ]
